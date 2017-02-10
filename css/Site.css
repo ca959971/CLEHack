@@ -30,3 +30,11 @@ center{
 nav {
   background-color: #578C90;
 }
+
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+strong{
+  color: #015249;
+}
