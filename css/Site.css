@@ -2,8 +2,11 @@
 
 background-color: #A5A5AF;
 
-}
 
+}
+p {
+  font-size: 150%;
+}
 
 h2 a{
   color:#b48484;
@@ -18,14 +21,12 @@ h3 {
   color:black;
 
 }
-#Mid-sec{
-    background-color: ;
-}
 
+center{
+  padding-top: 10px;
+  padding-right: 100px;
+
+}
 nav {
   background-color: #578C90;
-}
-
-border{
-  background-color: #A5A5AF;
 }
