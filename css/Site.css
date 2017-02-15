@@ -31,6 +31,10 @@ nav {
   background-color: #57BC90;
 }
 
+nav a {
+  font-size: 50px;
+}
+
 html {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
 }
