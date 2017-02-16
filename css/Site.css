@@ -29,10 +29,7 @@ center{
 }
 nav {
   background-color: #57BC90;
-}
-
-nav li {
-  font-size: 50px;
+  position: fixed;
 }
 
 html {
