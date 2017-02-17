@@ -8,6 +8,10 @@ height: auto;
  background: -moz-linear-gradient(#57BC90,#015249); /* For Firefox 3.6 to 15 */
  background: linear-gradient(#57BC90,#015249) /* Standard syntax (must be last) */
 
+<<<<<<< HEAD
+=======
+background-color: #ffffff;
+>>>>>>> origin/master
 
 
 }
@@ -32,9 +36,25 @@ center{
   padding-right: 100px;
 
 }
-nav {
-  background-color: #578C90;
+navbar-fixed {
+  background-color: #57BC90;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+nav ul {
+  background-color: #57BC90;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul a {
+  font-size:18px;
+}
+.waves-effect.waves-light.btn-large {
+    background-color: #77C9D4;
+    position:right;
+  }
 
 html {
   font-family: 'Open Sans', sans-serif;
@@ -45,7 +65,27 @@ strong{
   color: #015249;
 }
 
+<<<<<<< HEAD
 footer{
 
   background-color: #77C9D4;
 }
+=======
+.row {
+  background-color:#ffffff;
+}
+.row1 {
+  background-color:#046d61;
+}
+
+.col.l4.offset-l2.s12 {
+  position:right;
+}
+
+footer.page-footer {
+  background-color:#046d61;
+}
+footer.footer-copyright {
+  background-color:#015249;
+}
+>>>>>>> origin/master
