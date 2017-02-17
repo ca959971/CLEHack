@@ -1,6 +1,6 @@
 ﻿body {
 
-background-color: #A5A5AF;
+background-color: #ffffff;
 
 
 }
@@ -27,9 +27,25 @@ center{
   padding-right: 100px;
 
 }
-nav {
-  background-color: #578C90;
+navbar-fixed {
+  background-color: #57BC90;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+nav ul {
+  background-color: #57BC90;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul a {
+  font-size:18px;
+}
+.waves-effect.waves-light.btn-large {
+    background-color: #77C9D4;
+    position:right;
+  }
 
 html {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
@@ -37,4 +53,22 @@ html {
 
 strong{
   color: #015249;
+}
+
+.row {
+  background-color:#ffffff;
+}
+.row1 {
+  background-color:#046d61;
+}
+
+.col.l4.offset-l2.s12 {
+  position:right;
+}
+
+footer.page-footer {
+  background-color:#046d61;
+}
+footer.footer-copyright {
+  background-color:#015249;
 }
