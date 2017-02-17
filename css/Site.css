@@ -1,11 +1,18 @@
 ﻿body {
+  color: white;
+height: auto;
+  background: linear-gradient(direction, #77C9D4, #A5A5AF );
+  background: #77C9D4,; /* For browsers that do not support gradients */
+ background: -webkit-linear-gradient(#57BC90,#015249); /* For Safari 5.1 to 6.0 */
+ background: -o-linear-gradient(#57BC90,#015249); /* For Opera 11.1 to 12.0 */
+ background: -moz-linear-gradient(#57BC90,#015249); /* For Firefox 3.6 to 15 */
+ background: linear-gradient(#57BC90,#015249) /* Standard syntax (must be last) */
 
-background-color: #A5A5AF;
 
 
 }
 p {
-  font-size: 150%;
+
 }
 
 h2 a{
@@ -17,10 +24,8 @@ h2{
 h3 {
   color:black;
 }
-#customFont{
-  color:black;
 
-}
+
 
 center{
   padding-top: 10px;
@@ -32,7 +37,8 @@ nav {
 }
 
 html {
-  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 strong{
