@@ -12,14 +12,21 @@ h2 a{
   color:#b48484;
 }
 h2{
-  color: black;
+  color:#57BC90;
 }
 h3 {
   color:black;
 }
+#banner {
+  background-color:#57BC90;
+}
 #customFont{
   color:black;
-
+}
+.parallax {
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #57BC90 , #77C9D4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #57BC90 , #77C9D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
 }
 
 center{
@@ -28,13 +35,13 @@ center{
 
 }
 navbar-fixed {
-  background-color: #57BC90;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
 }
 nav ul {
-  background-color: #57BC90;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -43,9 +50,13 @@ nav ul a {
   font-size:18px;
 }
 .waves-effect.waves-light.btn-large {
-    background-color: #77C9D4;
+    background-color: #57BC90;
     position:right;
   }
+
+.container #Lower {
+  background-color:#015249;
+}
 
 html {
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
@@ -55,20 +66,41 @@ strong{
   color: #015249;
 }
 
+#changecolor {
+  background-color:#57BC90;
+}
 .row {
   background-color:#ffffff;
 }
-.row1 {
-  background-color:#046d61;
-}
-
-.col.l4.offset-l2.s12 {
-  position:right;
-}
 
 footer.page-footer {
-  background-color:#046d61;
+background-color:#57BC90;
 }
 footer.footer-copyright {
   background-color:#015249;
+}
+
+#firsttable {
+  background-color:#015249;
+}
+
+table {
+  font-size: 150%;
+}
+
+#TableTitle {
+  font-size:250%;
+}
+
+.collapsible-header {
+  font-size:150%;
+  background: #34e89e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #57BC90 , #77C9D4); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #57BC90 , #77C9D4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+#bottom {
+  background-color:#015249;
+  margin-bottom:0px;
+  padding-bottom:0px;
 }
