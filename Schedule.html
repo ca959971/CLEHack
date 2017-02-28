@@ -4,11 +4,19 @@
 <head>
   <link rel="stylesheet" href="css/materialize.css">
   <link rel="stylesheet" href="css/Site.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   <title>Schedule</title>
+<style>
+nav ul li a{
+  color: #015249;
+}
+</style>
 </head>
-<body >
+<body>
+
+
 
   <!-- Navbar -->
   <nav class="navbar-fixed">
@@ -20,6 +28,7 @@
 
 
       <ul id="nav-mobile">
+
         <li><a href="index.html">Home</a></li>
 
         <li><a href="Challenge.html">The Challenge</a></li>
@@ -28,77 +37,144 @@
 
         <li><a href="Contact.html">Contact</a></li>
 
-        <li><a class="waves-effect waves-light btn-large" href="https://www.eventbrite.com/e/cle-housing-hacks-tickets-32178515807">Register</a></li>
-      </ul>
+        <li><a class="waves-effect waves-light btn-large" href="Register.html">Register</a></li>
+        </ul>
     </div>
 
   </nav>
+  <!--  <div class=" container valign-wrapper">
+  <div class="container">
+  <h3 class="center-align">CLE Housing Symposium</h3>
+  <p> </p>
+</div>
+</div>
+-->
+<div class="parallax-container">
+  <div class="parallax"><img src="Pics/skyscraper-450793_1920.jpg"></div>
+</div>
+
+
+<div class="container" id="Mid-sec">
+  <div class=" row">
+    <div class="col s12">
 
 
 
-<div class="parallax-container"><center>
-
-    <div><a href="index.html" class='center-align'><img src="Pics/CLEHousingHack_Logo.png" height="200" width="225" alt=""></a></div>
-    <a class="waves-effect waves-light btn-large" href="https://www.eventbrite.com/e/cle-housing-hacks-tickets-32178515807">Register</a>
-    <h2>April 7th-8th, 2017</h2>
-    <center>
-      <div class="parallax">
+      <center><a href="#" class="center-align"><img src="Pics/CLEHousingHack_Logo.png" height="250" width="250" alt=""></a>
       </div>
+    </div></center>
+
+      <center><h2>Schedule</h2></center>
+<p>
+
+      <table class="bordered">
+        <thead>
+          <tr>
+            <center id="TableTitle">Friday</center>
+          </tr>
+          <tr id="firsttable">
+              <th data-field="id">Time</th>
+              <th data-field="name">Event</th>
+              <th data-field="price">Location</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>12:00 PM</td>
+            <td>Hacking Kick-off</td>
+            <td>2:00 PM</td>
+          </tr>
+          <tr>
+            <td>1:00 PM</td>
+            <td>Panel</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td>Registration</td>
+            <td>$7.00</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td>Registration</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+            <table class="bordered">
+        <thead>
+          <tr>
+            <center id="TableTitle">Saturday</center>
+          </tr>
+          <tr id="firsttable">
+              <th data-field="id">Time</th>
+              <th data-field="name">Event</th>
+              <th data-field="price">Location</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>12:00 PM</td>
+            <td>Hacking Kick-off</td>
+            <td>2:00 PM</td>
+          </tr>
+          <tr>
+            <td>1:00 PM</td>
+            <td>Panel</td>
+            <td>$3.76</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td>Registration</td>
+            <td>$7.00</td>
+          </tr>
+          <tr>
+            <td>2:00 PM</td>
+            <td>Registration</td>
+            <td>$7.00</td>
+          </tr>
+        </tbody>
+      </table>
+
+      </p>
+
+
     </div>
-
-  <!--
-  <center>
-  <iframe
-  src="https://docs.google.com/a/digitalc.org/forms/d/e/1FAIpQLScIqALre-vQTArvvLkbx_B1TVOzwC9yiaY0Z3qJhO04m-WR3A/viewform?embedded=true"
-  width="1024" height="800" frameborder="0" marginheight="0"
-  marginwidth="0">Loading...</iframe>
-</center>
-  -->
+<p>
 
 
+</div>
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="Scripts/materialize.js"></script>
+  <script src="Scripts/Custom.js"></script>
 
-
-
-
-
-
-
-
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row" id="changecolor">
-          <div class="col l6 s12">
-            <h5 class="white-text">Hosted by</h5>
+        <footer class="page-footer">
+          <div class="container">
             <div class="row" id="changecolor">
-              <a href="https://www.cmha.net/" target="_blank"><div class="col m4"><img src="Pics/cmhalogo.jpg" alt="" width="100" height="50"></div></a>
-              <a href="http://www.digitalc.org" target="_blank"><div class="col m4"><img src="Pics/download.png" alt="" width="100" height="50"></div></a>
-              <a href="http://www.csuohio.edu/" target="_blank"><img src="Pics/CSUlogo.png" alt="" width="100" height="75"></a>
-
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="www.facebook.com"><img src="Pics/Facebook-color.svg"></a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-            </ul>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 DigitalC, all rights reserved.
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-          © 2017 DigitalC, all rights reserved.
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-        </div>
-      </div>
-    </footer>
-
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="Scripts/materialize.js"></script>
-    <script src="Scripts/Custom.js"></script>
-  </body>
-  </html>
+        </footer>
+</body>
+</html>
