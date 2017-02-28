@@ -60,8 +60,11 @@ center{
 
 }
 
-
+.tabs .tab a {
+  color: #77C9D4;
 }
+
+
 .waves-effect.waves-light.btn-large {
     background-color: #57BC90;
     position:right;
