@@ -18,7 +18,7 @@ h2 a{
   color:#b48484;
 }
 h2{
-  color:#57BC90;
+  color:#015249;
 }
 h3 {
   color:black;
@@ -101,6 +101,15 @@ background: linear-gradient(to left, #57BC90 , #77C9D4); /* W3C, IE 10+/ Edge, F
 
 table {
   font-size: 150%;
+
+
+}
+
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
 }
 /* ///////////////////////////// IDs ////////////////////////// */
 
