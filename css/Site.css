@@ -114,6 +114,10 @@ table {
   flex-direction: column;
   height: 400px;
 }
+
+i.icon-blue {
+  color: #57bc90;
+}
 /* ///////////////////////////// IDs ////////////////////////// */
 
 
