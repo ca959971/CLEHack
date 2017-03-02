@@ -123,7 +123,9 @@ i.icon-blue {
 /* ///////////////////////////// IDs ////////////////////////// */
 
 
-
+#RegPad{
+  padding-bottom: 20px;
+}
 
 #bottom {
   background-color:#015249;
