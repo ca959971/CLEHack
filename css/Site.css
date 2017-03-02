@@ -121,7 +121,12 @@ i.icon-blue {
 
 
 /* ///////////////////////////// IDs ////////////////////////// */
+#sponPad{
+color:#015249;
+padding-bottom: 10px;
+text-decoration: underline;
 
+}
 
 #RegPad{
   padding-bottom: 0px;
