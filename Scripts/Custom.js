@@ -11,3 +11,5 @@ $(document).ready(function(){
 
 
  $(".button-collapse").sideNav();
+
+ var bs = require("./").create();
