@@ -24,6 +24,29 @@ h3 {
   color:black;
 }
 
+/* ///////////////////////////// Schedule ////////////////////////// */
+
+th {
+  height: 65px;
+    width: 510px;
+
+    background-color: #57BC90;
+
+}
+#titlesec{
+background-color: #77C9D4;
+padding-bottom: 0px;
+width: 1024px;
+}
+#titlepad{
+  margin-bottom: 0px;
+
+}
+#sympcolor{
+  background-color: #77C9D4;
+}
+
+
 /* ///////////////////////////// Navbar ////////////////////////// */
 
 navbar-fixed {
