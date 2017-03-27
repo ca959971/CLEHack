@@ -2,12 +2,17 @@
 
 body {
 background-color: #ffffff;
+
+
 }
 
 /* ///////////////////////////// P element ////////////////////////// */
 
 p {
   font-size: 150%;
+
+
+
 }
 
 
@@ -178,4 +183,9 @@ text-decoration: underline;
 
 #customFont{
   color:black;
+}
+
+/* ///////////////////////////// DIV ////////////////////////// */
+div {
+text-align: center;
 }
