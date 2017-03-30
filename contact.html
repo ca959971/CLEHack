@@ -16,7 +16,9 @@
 <body>
 
 
-
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="faq">FAQ</a></li>
+  </ul>
   <nav class="navbar-fixed">
  <div class="nav-wrapper">
    <a href="#!" class="brand-logo">Logo</a>
@@ -25,7 +27,7 @@
      <!-- ////////////////////////// add links to newly created pages /////////////////////////-->
      <li><a href="/">Home</a></li>
      <li><a href="challenge">The Challenge</a></li>
-     <li><a href="logistics">Logistics</a></li>
+     <li><a class="dropdown-button" data-beloworigin="true" href="logistics" data-activates="dropdown1">Logistics<i class="material-icons right">arrow_drop_down</i></a></li>
      <li><a href="perspective">Perspectives</a></li>
      <li><a href="schedule">Schedule</a></li>
      <li><a href="contact">Contact</a></li>
@@ -39,6 +41,7 @@
      <li><a href="/">Home</a></li>
      <li><a href="challenge">The Challenge</a></li>
      <li><a href="logistics">Logistics</a></li>
+     <li><a href="faq">FAQ</a></li>
      <li><a href="perspective">Perspectives</a></li>
      <li><a href="schedule">Schedule</a></li>
      <li><a href="contact">Contact</a></li>
@@ -49,7 +52,6 @@
    </ul>
  </div>
 </nav>
-
 
 <div class="typeform-widget" data-url="https://digitalc.typeform.com/to/vDK9hh" data-text="CLE Housing Hackathon" style="width:100%;height:800px;"></div>
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
